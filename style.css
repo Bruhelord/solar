@@ -19,7 +19,7 @@ header {
     left: -1px;
     top: 0px;
     border-radius: 0px;
-    background-image: url('../img/фон.jpg');
+    background: url(img/фон.jpg);
 }
 
 .header-img1 {
@@ -63,4 +63,111 @@ header {
 
 .header-div1-p1 {
     border: none
+}
+
+.section1-div1 {
+    display: flex;
+    margin-top: 150px;
+    height: 763px;
+
+}
+
+.section1-div1-div1 {
+    height: 763px;
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    margin-left: 360px;
+    
+}
+
+.section1-div1-img1 {
+    margin-left: 100px;
+    margin-top: 93px;
+}
+
+.section1-div1-h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+
+.section1-div1-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+    color: #303030;
+
+}
+
+.section1-div1-p1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    margin-top: -30px;
+    width: 510px;
+}
+
+
+.section1-div2 {
+    margin-left: 360px;
+    height: 765px;
+    width: 1200px;
+    margin-top: 150px;
+
+}
+
+.section1-div2-div1-div1 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 40px;
+    width: 400px;
+    height: 27px;
+    font-size: 18px;
+    color: #303030;
+}
+
+.section1-div2-div1-div1-p1 {
+    border-bottom: 1px solid #303030;
+}
+
+p:hover {
+    color: #A9A32A;
+    transition: 0.5s linear;
+}
+
+h6:hover {
+    color: #A9A32A;
+    transition: 0.5s linear;
+}
+
+.section1-div2-div2 {
+    display: flex;
+    justify-content: baseline;
+    gap: 40px;
+    margin-top: 125px;
+    width: 510px;
+    height: 200px;
+
+}
+
+.section1-div2-div2-div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 68px;
+    font-size: 14px;
+    color: #303030;
+    margin-top: -18px;
+}
+
+
+.section1-div2-div3 {
+    
 }

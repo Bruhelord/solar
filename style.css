@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Noto-sans';
+    src: url(/NotoSans-Regular.ttf);
+    
+}
+
+body {
+    font-family: 'Noto-sans';
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 900px;
+    width: 1921px;
+    left: -1px;
+    top: 0px;
+    border-radius: 0px;
+    background-image: url('../img/фон.jpg');
+}
+
+.header-img1 {
+    margin-top: 76px;
+}
+
+.header-p1 {
+    font-size: 18px;
+}
+
+.header-p2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+}
+.header-p3 {
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: 0em;
+    margin-top: -90px;
+
+
+}
+.header-div1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-div1-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #1B171700;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.header-div1-p1 {
+    border: none
+}
